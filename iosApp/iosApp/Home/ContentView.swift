@@ -8,18 +8,22 @@ struct ContentView: View {
 
   func load() {
         // print("hello")
-        greeting.getDog(count: 3) { result, error in
+
+       greeting.getDog(count: 3) { result, error in
             if let result = result {
-                
-           array=result.peekData() as! [String]
-               
-            } else if let error = error {
+                array=result.peekData() as? [String] ?? []
+               } else if let error = error {
                 mError = "Error: \(error)"
             }
         }
     }
 
 var body: some View {
+    if(mError==nil){
+        
+    }else{
+        
+    }
    List{
         VStack {
                ForEach(self.array, id: \.self) { value in

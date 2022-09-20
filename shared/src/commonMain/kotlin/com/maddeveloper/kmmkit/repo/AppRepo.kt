@@ -9,6 +9,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
 class AppRepo {
+
+    @Throws(Exception::class)
     suspend fun getDog(count:Int) = withContext(Dispatchers.Default) {
         try {
             val response = AppService().getDog(count)

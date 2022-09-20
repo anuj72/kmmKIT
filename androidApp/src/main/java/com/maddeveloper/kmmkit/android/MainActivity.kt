@@ -14,6 +14,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.maddeveloper.kmmkit.android.ui.theme.KmmKITTheme
+import com.maddeveloper.kmmkit.repo.AppRepo
 import com.maddeveloper.kmmkit.service.AppService
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
@@ -29,7 +30,7 @@ class MainActivity : ComponentActivity() {
             }
             LaunchedEffect(Unit) {
                 kotlin.runCatching {
-                    AppService().getDog(3)
+                    AppRepo().getDog(3)
                 }.onSuccess {
                     data.value = it.toString()
                 }.onFailure {

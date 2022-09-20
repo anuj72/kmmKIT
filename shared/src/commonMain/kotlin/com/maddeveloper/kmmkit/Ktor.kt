@@ -23,14 +23,14 @@ class Ktor {
                     }
                 }
             }
-
             install(ContentNegotiation) {
                 json(Json {
                     prettyPrint = true
                     isLenient = true
                     ignoreUnknownKeys = true
                 })
-            }.also { initLogger() }
+            }
+          .also { initLogger() }
             defaultRequest {
                 header(HttpHeaders.ContentType, "application/json")
                 header(HttpHeaders.Accept, "application/json")
