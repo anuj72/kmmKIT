@@ -1,6 +1,5 @@
 # kmmKIT
-kmm app 
-A Demo Application for demonstrating code reuse in Android, iOS  apps using [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) (KMP).
+kmm app is a Demo Application for demonstrating code reuse in Android, iOS  apps using [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) (KMP).
 <br/>
 Specifications:
 * 100% [Kotlin](https://kotlinlang.org/) for Common Kotlin Code, Android and JavaScript modules.
