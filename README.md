@@ -24,6 +24,11 @@ All advantages and freedom of native development without perfomance decrase + co
 * [Networking in KMM](https://medium.com/mounty-engineering/networking-in-kmm-ktor-part-3-78ec68787f6a)
 * [LocalDb in KMM](https://medium.com/mounty-engineering/localdb-in-kmm-sqldelight-part-4-573ea0904156)
 
+# Architecturte
+![IMG_0164 Large](https://user-images.githubusercontent.com/26837182/193422633-dcc213ef-d2ff-4bc7-8b06-9677ef639f87.jpeg)
+
+
+
 # Previews
 <img width="1470" alt="Screenshot 2022-10-01 at 10 58 04 PM" src="https://user-images.githubusercontent.com/26837182/193421867-b059295e-f24c-4006-be0c-0c557aa68ed8.png">
 
