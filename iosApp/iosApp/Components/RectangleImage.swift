@@ -18,7 +18,7 @@ struct RectangleImage: View {
         KFImage(URL(string: url))
             .resizable()
             .scaledToFit().animation(Animation.easeIn)
-            .cornerRadius(16.0).frame( height:300)
+            .cornerRadius(16.0).frame(height:300)
 
     }
 }

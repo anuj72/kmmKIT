@@ -5,39 +5,25 @@ struct ContentView: View {
     let greeting = AppRepo()
     @State var mError: String? = nil
     @State var array: [String] = []
+    @ObservedObject var vm = MainVM()
 
-  func load() {
-        // print("hello")
-
-       greeting.getDog(count: 3) { result, error in
-            if let result = result {
-                array=result.peekData() as? [String] ?? []
-               } else if let error = error {
-                mError = "Error: \(error)"
-            }
-        }
-    }
+ 
 
 var body: some View {
-    if(mError==nil){
-        
-    }else{
-        
-    }
    List{
         VStack {
-               ForEach(self.array, id: \.self) { value in
+            ForEach(vm.array, id: \.self) { value in
                 RectangleImage(url: value)
                  Text("Doge")
                }
             }.onAppear {
-                load()
+                vm.load()
             }
         
-        ForEach(array, id: \.hash){value in
-            Text(value)
-            
-        }
+//        ForEach(array, id: \.hash){value in
+//            Text(value)
+//
+//        }
     }
    
     
