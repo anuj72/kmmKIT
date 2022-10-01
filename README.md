@@ -13,3 +13,17 @@ Specifications:
 * Multiplatform Network Client using [Ktor](https://ktor.io/).
 * [Jetpack Compose](https://developer.android.com/jetpack/compose) for Android.
 * [SwiftUI](https://developer.apple.com/xcode/swiftui/) for iOS.
+
+
+# Why KMP?
+All advantages and freedom of native development without perfomance decrase + code re-usability in other platforms.
+
+# My Blogs
+* [is KMM Production Ready](https://medium.com/mounty-engineering/is-kmm-production-ready-how-we-migrated-our-code-to-kotlin-multiplatform-mobile-part-1-d7329874a402/)
+* [How we migrated our code to Kotlin Multiplatform](https://medium.com/mounty-engineering/is-kmm-production-ready-how-we-migrated-our-code-to-kotlin-multiplatform-mobile-part-1-d7329874a402/)
+* [Networking in KMM](https://medium.com/mounty-engineering/networking-in-kmm-ktor-part-3-78ec68787f6a)
+* [LocalDb in KMM](https://medium.com/mounty-engineering/localdb-in-kmm-sqldelight-part-4-573ea0904156)
+
+# Previews
+<img width="1470" alt="Screenshot 2022-10-01 at 10 58 04 PM" src="https://user-images.githubusercontent.com/26837182/193421867-b059295e-f24c-4006-be0c-0c557aa68ed8.png">
+
