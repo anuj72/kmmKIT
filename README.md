@@ -25,6 +25,7 @@ All advantages and freedom of native development without perfomance decrase + co
 
 # Architecturte
 ![IMG_0164 Large](https://user-images.githubusercontent.com/26837182/193422633-dcc213ef-d2ff-4bc7-8b06-9677ef639f87.jpeg)
+![Untitled design](https://user-images.githubusercontent.com/26837182/193447507-d9d97c81-d298-430c-9c79-ca0cf19ed5d6.png)
 
 
 
