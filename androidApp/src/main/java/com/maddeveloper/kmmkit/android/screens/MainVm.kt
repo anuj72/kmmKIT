@@ -20,11 +20,18 @@ class MainVm:ViewModel() {
             }.onSuccess {
                 it.peekData().let {
                     data.value = it!!
-                }
-
-            }.onFailure {
+                } }.onFailure {
                 error.value = "Error: ${it.localizedMessage}"
             }
+        }
+    }
+
+
+
+    fun getFlowDoge(){
+        viewModelScope.launch {
+            val mdata=AppRepo().getDataFlow(5)
+
         }
     }
 
