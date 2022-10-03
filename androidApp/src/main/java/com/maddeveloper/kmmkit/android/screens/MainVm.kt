@@ -28,11 +28,6 @@ class MainVm:ViewModel() {
 
 
 
-    fun getFlowDoge(){
-        viewModelScope.launch {
-            val mdata=AppRepo().getDataFlow(5)
 
-        }
-    }
 
 }
